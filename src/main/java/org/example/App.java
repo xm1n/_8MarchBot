@@ -26,7 +26,7 @@ public class App {
         try {
             while(true) {
 
-                URL url = new URL("https://xm2nbot.herokuapp.com/");
+                URL url = new URL("https://xm1nbot.herokuapp.com/");
                 HttpURLConnection connection = (HttpURLConnection) url.openConnection();
                 connection.setRequestMethod("GET");
                 long responcode = connection.getResponseCode();
