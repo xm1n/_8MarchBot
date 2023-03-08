@@ -29,7 +29,7 @@ public class App {
                 URL url = new URL("https://xm2nbot.herokuapp.com/");
                 HttpURLConnection connection = (HttpURLConnection) url.openConnection();
                 connection.setRequestMethod("GET");
-                int responcode = connection.getResponseCode();
+                long responcode = connection.getResponseCode();
                 System.out.println("RS CODE:"+responcode);
                 if (responcode == HttpURLConnection.HTTP_OK)
                 {
