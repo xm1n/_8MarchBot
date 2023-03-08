@@ -4,7 +4,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.telegram.telegrambots.ApiContextInitializer;
 import org.telegram.telegrambots.meta.TelegramBotsApi;
-import eu.vendeli.tgbot.TelegramBot;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
