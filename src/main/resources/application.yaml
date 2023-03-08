@@ -1,0 +1,5 @@
+bot:
+  BOT_USERNAME: xm2nBot
+  BOT_TOKEN: 6273105928:AAGRyCPnwEqfOSYnL2x9lRmTHz9hXEkiwDI
+server:
+  PORT: 5000
